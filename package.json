@@ -1,5 +1,5 @@
 {
-  "name": "Digipulse-hub-alpha",
+  "name": "dgp-hub",
   "version": "6.0.3",
   "description": "Access the Digipulse network using a simple REST API.",
   "main": "index.js",

@@ -8,7 +8,7 @@
     "test": "test"
   },
   "bin": {
-    "storj-bridge": "bin/storj-bridge.js",
+    "dgp-hub": "bin/storj-bridge.js",
     "storj-monitor": "bin/storj-monitor.js",
     "storj-renew": "bin/storj-contract-renew.js"
   },
@@ -25,7 +25,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Storj/bridge.git"
+    "url": "git+https://github.com/dgpdev/dgp-hub.git"
   },
   "keywords": [
     "storj",

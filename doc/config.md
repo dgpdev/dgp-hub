@@ -20,7 +20,7 @@ properties simply by using standard dot-syntax.
 | complex.rpcUser           | username | The user name for authenticating with the Complex server |
 | complex.rpcPassword       | password | the password for authenticating with the Complex server | 
 
-The following is a sanitized version of the config that we use to run our Bridge servers. You can find the defaults in [`lib/config.js`](https://github.com/Storj/bridge/blob/master/lib/config.js).
+The following is a sanitized version of the config that we use to run our Bridge servers. You can find the defaults in [`lib/config.js`](https://github.com/dgpdev/dgp-hub/blob/master/lib/config.js).
 
 ```
 {

@@ -20,7 +20,7 @@
     "test": "npm run testsuite && npm run integration && npm run linter",
     "dev": "NODE_ENV=development nodemon bin/dgp-hub.js",
     "make-docs": "./node_modules/.bin/jsdoc index.js lib -r -R README.md -u ./doc -c .jsdoc.json --verbose -d ./jsdoc",
-    "publish-docs": "gh-pages -d jsdoc --repo git@github.com:Storj/bridge.git",
+    "publish-docs": "gh-pages -d jsdoc --repo git@github.com:dgpdev/dgp-hub.git",
     "payout-report": "node script/payouts.js"
   },
   "repository": {
@@ -29,7 +29,7 @@
   },
   "keywords": [
     "storj",
-    "bridge"
+    "hub"
   ],
   "author": {
     "name": "Gordon Hall",
@@ -37,9 +37,9 @@
   },
   "license": "AGPL-3.0",
   "bugs": {
-    "url": "https://github.com/Storj/bridge/issues"
+    "url": "https://github.com/dgpdev/dgp-hub/issues"
   },
-  "homepage": "https://github.com/Storj/bridge#readme",
+  "homepage": "https://github.com/dgpdev/dgp-hub#readme",
   "devDependencies": {
     "chai": "^3.4.1",
     "coveralls": "^2.11.6",

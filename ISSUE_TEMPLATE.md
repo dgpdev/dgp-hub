@@ -1,9 +1,9 @@
 ### Package Versions
 
-Replace the values below using the output from `npm list storj-bridge`.
+Replace the values below using the output from `npm list dgp-hub`.
 
 ```
-storj-bridge@0.6.5 /home/gordon/Code/storj-bridge
+dgp-hub@0.6.5 /home/gordon/Code/dgp-hub
 └── storj@0.6.5  -> /home/gordon/Code/storj-core
 ```
 

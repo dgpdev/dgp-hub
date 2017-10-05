@@ -118,7 +118,7 @@ describe('Monitor Config', function() {
 
     const DEFAULTS = {
       storage: {
-        mongoUrl: 'mongodb://127.0.0.1:27017/__storj-bridge-test',
+        mongoUrl: 'mongodb://127.0.0.1:27017/__dgp-hub-test',
         mongoOpts: {}
       },
       complex: {

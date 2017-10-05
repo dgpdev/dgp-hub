@@ -26,4 +26,4 @@ RUN npm install
 ADD . .
 
 # The default command this container will run is the bridge, but the user can pass in their own commands which get handled by wait.sh and dumb-init.
-CMD ["./bin/storj-bridge.js"]
+CMD ["./bin/dgp-hub.js"]

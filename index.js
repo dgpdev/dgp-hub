@@ -1,5 +1,5 @@
 /**
- * @module storj-bridge
+ * @module dgp-hub
  */
 
 'use strict';
@@ -13,8 +13,8 @@ module.exports.Config = require('./lib/config');
 /** {@link Server} */
 module.exports.Server = require('./lib/server');
 
-/** {@link module:storj-bridge/utils} */
+/** {@link module:dgp-hub/utils} */
 module.exports.utils = require('./lib/utils');
 
-/** {@link module:storj-bridge/logger} */
+/** {@link module:dgp-hub/logger} */
 module.exports.logger = require('./lib/logger');

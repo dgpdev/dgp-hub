@@ -1,9 +1,9 @@
-[![Storj Bridge](https://nodei.co/npm/storj-bridge.png?downloads=true)](http://storj.github.io/bridge)
+[![Storj Bridge](https://nodei.co/npm/dgp-hub.png?downloads=true)](http://storj.github.io/bridge)
 =======================================================================================================
 
 [![Build Status](https://img.shields.io/travis/Storj/bridge.svg?style=flat-square)](https://travis-ci.org/Storj/bridge)
 [![Coverage Status](https://img.shields.io/coveralls/Storj/bridge.svg?style=flat-square)](https://coveralls.io/r/Storj/bridge)
-[![NPM](https://img.shields.io/npm/v/storj-bridge.svg?style=flat-square)](https://www.npmjs.com/package/storj-bridge)
+[![NPM](https://img.shields.io/npm/v/dgp-hub.svg?style=flat-square)](https://www.npmjs.com/package/dgp-hub)
 [![GitHub license](https://img.shields.io/badge/license-AGPLv3-blue.svg?style=flat-square)](https://raw.githubusercontent.com/Storj/data-api/master/LICENSE)
 
 Access the [Storj](http://storj.io) network via simple REST API.
@@ -42,14 +42,14 @@ npm install && npm link
 Start the server (set the `NODE_ENV` environment variable to specify the config):
 
 ```
-NODE_ENV=develop storj-bridge
+NODE_ENV=develop dgp-hub
 ```
 
 > **Note:** Storj Bridge cannot communicate with the network on it's own, but 
 > instead must communicate with a running 
 > [Storj Complex](https://github.com/Storj/complex) instance.
 
-This will use the configuration file located at `~/.storj-bridge/config/develop.json`.
+This will use the configuration file located at `~/.dgp-hub/config/develop.json`.
 
 Windows
 -------
@@ -63,7 +63,7 @@ https://github.com/Storj/storj-automation/archive/master.zip
 The default configuration can be modified as needed.  It is located at
 
 ```
-%USERPROFILE%\.storj-bridge\config
+%USERPROFILE%\.dgp-hub\config
 ```
 
 Edit `production` in notepad/wordpad. For more information, see [the documentation](http://storj.github.io/bridge).
